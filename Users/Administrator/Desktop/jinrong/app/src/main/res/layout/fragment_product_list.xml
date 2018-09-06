@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.example.administrator.jinrong.view.MyTextView
+        android:id="@+id/tv_product_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:padding="5dp"
+        android:text="硅谷金融壕运当头，首投返现最高188元"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp"/>
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lv_product_list"
+        android:dividerHeight="10dp"
+        android:divider="@color/title_text"
+        ></ListView>
+
+</LinearLayout>

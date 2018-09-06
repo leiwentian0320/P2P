@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fl_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        >
+    </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/rg_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_shouye"
+            android:drawableTop="@drawable/shouye_drawable_selector"
+            android:button="@android:color/transparent"
+            android:text="首页"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@drawable/botton_textcolor_selector"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/rb_touzi"
+            android:button="@android:color/transparent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="投资"
+            android:drawableTop="@drawable/touzi_drawable_selector"
+            android:textColor="@drawable/botton_textcolor_selector"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/rb_wodezichan"
+            android:button="@android:color/transparent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="我的资产"
+            android:drawableTop="@drawable/wodezichan_drawable_selector"
+            android:textColor="@drawable/botton_textcolor_selector"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/rb_gengduo"
+            android:drawableTop="@drawable/gengduo_drawable_selector"
+            android:button="@android:color/transparent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="更多"
+            android:textColor="@drawable/botton_textcolor_selector"
+            android:layout_height="wrap_content" />
+
+
+    </RadioGroup>
+
+</LinearLayout>
